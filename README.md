@@ -1,6 +1,5 @@
 # Repositório de Aprendizado
-
-Repositório com foco em armazenar código de cursos.
+Abaixo contém uma visão geral dos meus cursos concluídos (✅), em andamento (🔛) e próximos passos (🟡). Caso queira saiber mais sobre o projeto de algum deles, não hesite em acessar a pasta do curso no repositório e dar uma olhado no README.md!
 
 ## [Formação Desenvolva aplicações Web com JavaScript](https://cursos.alura.com.br/formacao-javascript-front-end)
 
