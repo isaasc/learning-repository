@@ -15,3 +15,7 @@ Nesse projeto foi estudado:
 - Arrow functions
 - O que são data-attributes
 - Manipulação de elementos do DOM com data-attributes
+- lastIndexOf()
+- indexOf()
+- substring()
+- replace()
