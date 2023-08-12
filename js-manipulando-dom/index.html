@@ -16,34 +16,43 @@
 
 <body>
     <main>
+
         <section class="robotron">
-            <img class="robo" src="img/robotron.png" alt="Robotron">
+            <img class="robo" data-robo src="img/robotron-azul.png" alt="Robotron">
             <figcaption class="titulo">ROBOTRON <br>2000</figcaption>
+            <div class="box-colors">
+                <button data-cor="amarelo">Amarelo</button>
+                <button data-cor="azul">Azul</button>
+                <button data-cor="branco">Branco</button>
+                <button data-cor="preto">Preto</button>
+                <button data-cor="rosa">Rosa</button>
+                <button data-cor="vermelho">Vermelho</button>
+            </div>
         </section>
 
         <section class="box estatisticas">
             <div class="estatistica">
                 <p class="estatistica-titulo">Força</p>
                 <div class="estatistica-valor">
-                    <p class="estatistica-numero" data-estatistica="forca">768</p>
+                    <p class="estatistica-numero" data-estatistica="forca">0</p>
                 </div>
             </div>
             <div class="estatistica">
                 <p class="estatistica-titulo">Poder</p>
                 <div class="estatistica-valor">
-                    <p class="estatistica-numero" data-estatistica="poder">630</p>
+                    <p class="estatistica-numero" data-estatistica="poder">0</p>
                 </div>
             </div>
             <div class="estatistica">
                 <p class="estatistica-titulo">Energia</p>
                 <div class="estatistica-valor">
-                    <p class="estatistica-numero" data-estatistica="energia">289</p>
+                    <p class="estatistica-numero" data-estatistica="energia">0</p>
                 </div>
             </div>
             <div class="estatistica">
                 <p class="estatistica-titulo">Velocidade</p>
                 <div class="estatistica-valor">
-                    <p class="estatistica-numero" data-estatistica="velocidade">597</p>
+                    <p class="estatistica-numero" data-estatistica="velocidade">0</p>
                 </div>
             </div>
         </section>
@@ -54,49 +63,48 @@
                     <div class="peca">
                         <label for="" class="peca-titulo">Braços</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste" data-controle="subtrair">-</buttom>
+                            <buttom class="controle-ajuste" data-controle="subtrair" data-peca="braco">-</buttom>
                             <input type="text" class="controle-contador" value="00" data-contador>
-                            <buttom class="controle-ajuste" data-controle="somar">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="somar" data-peca="braco">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Blindagem</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste" data-controle="subtrair">-</buttom>
+                            <buttom class="controle-ajuste" data-controle="subtrair" data-peca="blindagem">-</buttom>
                             <input type="text" class="controle-contador" value="00" data-contador>
-                            <buttom class="controle-ajuste" data-controle="somar">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="somar" data-peca="blindagem">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Núcleos</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste" data-controle="subtrair">-</buttom>
+                            <buttom class="controle-ajuste" data-controle="subtrair" data-peca="nucleo">-</buttom>
                             <input type="text" class="controle-contador" value="00" data-contador>
-                            <buttom class="controle-ajuste" data-controle="somar">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="somar" data-peca="nucleo">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Pernas</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste" data-controle="subtrair">-</buttom>
+                            <buttom class="controle-ajuste" data-controle="subtrair" data-peca="perna">-</buttom>
                             <input type="text" class="controle-contador" value="00" data-contador>
-                            <buttom class="controle-ajuste" data-controle="somar">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="somar" data-peca="perna">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="peca">
                         <label for="" class="peca-titulo">Foguetes</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste" data-controle="subtrair">-</buttom>
+                            <buttom class="controle-ajuste" data-controle="subtrair" data-peca="foguete">-</buttom>
                             <input type="text" class="controle-contador" value="00" data-contador>
-                            <buttom class="controle-ajuste" data-controle="somar">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="somar" data-peca="foguete">+</buttom>
                         </div>
                     </div>
                 </div>
-                <input type="submit" value="Iniciar produção" class="producao" id="producao">
             </form>
         </section>
     </main>
